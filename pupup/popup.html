@@ -1,1 +1,79 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zinkx Control Panel</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="../images/icon48.png" alt="Icon" class="header-icon">
+    <h1>Zinkx Control Panel</h1>
+  </header>
+  <div class="setting">
+    <label class="switch">
+      <input type="checkbox" id="toggleDarkMode">
+      <span class="slider round"></span>
+    </label>
+    <span class="label-text">Dark Mode</span>
+  </div>
+  <div class="setting">
+    <label class="bold-switch">
+      <input type="checkbox" id="boldText">
+      <span class="bold-slider"></span>
+    </label>
+    <span class="label-text">Bold Text</span>
+  </div>
+  <div class="setting">
+    <span class="icon font-icon"></span>
+    <select id="fontSelector">
+      <option value="Arial">Arial</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Courier New">Courier New</option>
+      <option value="Georgia">Georgia</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Comic Sans MS">Comic Sans MS</option>
+      <option value="Impact">Impact</option>
+      <option value="Trebuchet MS">Trebuchet MS</option>
+    </select>
+  </div>
+  <div class="setting">
+    <span class="icon theme-icon"></span>
+    <select id="themeSelector">
+      <option value="default">Default</option>
+      <option value="sepia">Sepia</option>
+      <option value="grayscale">Grayscale</option>
+      <option value="inverted">Inverted</option>
+      <option value="highContrast">High Contrast</option>
+      <option value="nightMode">Night Mode</option>
+    </select>
+  </div>
+  <div class="setting auto-dark-mode">
+    <span class="icon time-icon"></span>
+    <span class="label-text small">Auto Dark Mode</span>
+    <div class="time-setting">
+      <div class="time-group">
+        <label for="startHour">Start:</label>
+        <input type="time" id="startHour" name="startHour" value="18:00">
+        <label for="endHour">End:</label>
+        <input type="time" id="endHour" name="endHour" value="06:00">
+      </div>
+      <div class="small-switch-container">
+        <label class="small-switch">
+          <input type="checkbox" id="autoDarkMode">
+          <span class="small-slider"></span>
+        </label>
+        <span class="switch-label">ON</span>
+        <span class="switch-label off-label">OFF</span>
+      </div>
+    </div>
+  </div>
+  <div class="links">
+    <button id="githubButton">GitHub</button>
+    <button id="websiteButton">Website</button>
+  </div>
+  <div class="footer">
+    Designed By Dev Technic
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

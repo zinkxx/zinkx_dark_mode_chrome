@@ -1,47 +1,73 @@
-# Zinkx Dark Mode
+# Zinkx Control Panel
 
-Zinkx Dark Mode is a Chrome extension that allows users to switch to dark mode, change fonts, and enable bold text on any website. It provides a simple and elegant interface for enhancing the readability and aesthetics of web pages.
+Zinkx Control Panel, web sitelerinde koyu mod (dark mode), kalın metin (bold text) ve yazı tipi değiştirme gibi özellikleri etkinleştirmenizi sağlayan bir Chrome eklentisidir. Ayrıca otomatik koyu mod ve tema değişiklikleri gibi ek özellikler de sunar.
 
-## Features
+## Özellikler
 
-- **Dark Mode**: Switches the website to a dark theme to reduce eye strain and improve readability.
-- **Bold Text**: Makes all the text on the website bold for better visibility.
-- **Font Changer**: Allows users to select different fonts to apply to the website text.
-- **Easy Toggle**: Simple toggle switches in the extension popup to turn features on and off.
-- **Modern Design**: Clean and modern user interface with smooth animations.
+- **Koyu Mod (Dark Mode):** Web sitelerinde koyu mod etkinleştirme ve devre dışı bırakma.
+- **Kalın Metin (Bold Text):** Web sitelerindeki tüm metinleri kalın yapma.
+- **Yazı Tipi Değiştirme (Font Change):** Web sitelerindeki metinleri farklı yazı tipleriyle görüntüleme.
+- **Tema Değiştirme:** Sepia, gri tonlama, ters çevrilmiş, yüksek kontrast ve gece modu gibi çeşitli temalar.
+- **Otomatik Koyu Mod:** Belirli saatlerde otomatik olarak koyu modu etkinleştirme ve devre dışı bırakma.
 
-## Installation
+## Kullanım
 
-1. Clone or download this repository to your local machine.
-2. Open Chrome and go to `chrome://extensions/`.
-3. Enable "Developer mode" in the top right corner.
-4. Click on "Load unpacked" and select the folder containing the extension files.
+1. Eklentiyi yükleyin ve tarayıcınızda etkinleştirin.
+2. Eklenti simgesine tıklayarak Zinkx Control Panel'i açın.
+3. İstediğiniz ayarları yapın:
+    - Koyu Mod etkinleştirmek için `Dark Mode` butonunu kullanın.
+    - Kalın Metin etkinleştirmek için `Bold Text` butonunu kullanın.
+    - Yazı Tipi değiştirmek için yazı tipi seçiciyi kullanın.
+    - Tema değiştirmek için tema seçiciyi kullanın.
+    - Otomatik Koyu Mod'u ayarlamak için saatleri belirleyin ve `Auto Dark Mode` butonunu kullanın.
 
-## Usage
+## Kurulum
 
-1. Click on the Zinkx Dark Mode icon in the Chrome toolbar.
-2. Use the toggle switches to enable Dark Mode, Bold Text, or change the font.
-3. Visit any website and see the changes take effect immediately.
+1. Bu depo içerisindeki dosyaları indirin veya klonlayın.
+2. Chrome tarayıcınızı açın ve `chrome://extensions/` adresine gidin.
+3. Sağ üst köşede `Geliştirici Modu`nu etkinleştirin.
+4. `Paketlenmemiş Uzantı Yükle` butonuna tıklayın ve indirdiğiniz dosyaların bulunduğu klasörü seçin.
 
-## Screenshots
+## Güncelleme Notları
 
-![Popup Interface](images/screenshot1.png)
-![Dark Mode Example](images/screenshot2.png)
-![Bold Text Example](images/screenshot3.png)
+### Versiyon 2.0.1
+- İlk sürüm yayımlandı.
+- Koyu mod, kalın metin ve yazı tipi değiştirme özellikleri eklendi.
 
-## Contributing
+### Versiyon 2.0.2
+- Tema değiştirme özelliği eklendi.
+- Sepia, gri tonlama, ters çevrilmiş, yüksek kontrast ve gece modu temaları eklendi.
 
-Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
+### Versiyon 2.0.3
+- Otomatik koyu mod özelliği eklendi.
+- Belirli saatlerde otomatik olarak koyu modu etkinleştirme ve devre dışı bırakma seçeneği eklendi.
 
-## License
+### Versiyon 2.0.4
+- Kullanıcı arayüzü iyileştirildi.
+- `Dark Mode` ve `Bold Text` butonları için yeni animasyonlar eklendi.
+- `Auto Dark Mode` kısmı çerçeve içerisine alındı ve saat ayarlama alanları düzenlendi.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+### Versiyon 2.0.5
+- Çeşitli hata düzeltmeleri yapıldı.
+- Tema değiştirme ve koyu mod özellikleri optimize edildi.
 
-## Author
+### Versiyon 2.0.6
+- `Dark Mode Intensity` özelliği eklendi, ancak sonradan kaldırıldı.
+- Resetleme tuşu eklendi, eklenti tamamen sıfırlandığında tüm ayarları sıfırlar.
+- Tema seçme alanının soluna renkli bir renk paleti ikonu eklendi.
 
-Zinkxx - [GitHub](https://github.com/zinkxx) - [Website](https://devtechnic.online)
+### Versiyon 2.0.7
+- Kullanıcı arayüzünde çeşitli iyileştirmeler yapıldı.
+- `Auto Dark Mode` çerçevesindeki saat ayarlama alanları düzenlendi.
+- Tema seçme alanının solundaki ikon ve `Dark Mode Intensity` solundaki resetleme tuşu için ikonlar güncellendi.
 
-## Acknowledgments
+## İletişim
 
-- Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/).
-- Special thanks to the contributors and the open-source community.
+Eğer herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen bizimle iletişime geçin:
+
+- GitHub: [Zinkxx](https://github.com/zinkxx)
+- Web Sitesi: [Dev Technic](https://devtechnic.online)
+
+## Lisans
+
+Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için `LICENSE` dosyasına bakabilirsiniz.

@@ -1,0 +1,21 @@
+.dark-mode {
+  filter: invert(1) hue-rotate(180deg);
+  background-color: #111;
+  color: #eee;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.sepia-mode {
+  filter: sepia(1);
+  background-color: #f5e6cc;
+  color: #5b4636;
+}
+
+.grayscale-mode {
+  filter: grayscale(1);
+  background-color: #222;
+  color: #ccc;
+}

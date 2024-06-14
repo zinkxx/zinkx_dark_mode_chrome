@@ -1,17 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "Zinkx Dark Mode",
-  "version": "1.4",
-  "description": "Switch to dark mode, change fonts and bold text on any website.",
-  "permissions": ["activeTab", "storage", "tabs"],
+  "name": "Zinkx Control Panel",
+  "version": "2.0.7",
+  "description": "Web sitelerinde koyu mod, kalın metin ve yazı tipi değiştirme gibi özellikleri etkinleştirir.",
+  "icons": {
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": {
-      "16": "images/icon16.png",
-      "48": "images/icon48.png",
-      "128": "images/icon128.png"
+      "48": "images/icon48.png"
     }
   },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
   "background": {
     "service_worker": "background.js"
   },
@@ -19,7 +25,16 @@
     {
       "matches": ["<all_urls>"],
       "js": ["content.js"],
-      "run_at": "document_idle"
+      "css": ["content.css"]
     }
-  ]
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "Command+Shift+F"
+      },
+      "description": "Toggle the extension"
+    }
+  }
 }
